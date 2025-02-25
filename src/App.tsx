@@ -1,9 +1,10 @@
 import './App.css';
+import { SubmitBtn } from './components/SubmitBtn';
 
 function App() {
   return (
     <>
-      <div>{<span>123</span>}</div>
+      <div><SubmitBtn></SubmitBtn></div>
     </>
   );
 }
